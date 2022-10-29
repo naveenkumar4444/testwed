@@ -1,0 +1,27 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    max-width: 90%;
+    max-height: 400px;
+    overflow: hidden;
+    object-fit: contain;
+    /* font-family: 'object-fit: contain;'; */
+}
+
+.swiper {
+    .Swiper-slide {
+        padding-top: 20%;
+        overflow:hidden;
+   
+        .img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            
+
+        }
+    }
+}

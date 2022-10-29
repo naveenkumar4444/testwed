@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    
+
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        display: flex;
+        position: relative;
+        max-height: 40%;
+
+    }
+}
+
+
+
+.Card {
+    height: 400px;
+    display: flex;
+    position: relative;
+    
+}
+
+.profilecontainer {
+    margin-top: 5%;
+}

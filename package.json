@@ -1,0 +1,34 @@
+{
+  "name": "wedcell-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.2",
+    "next": "12.1.5",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "18.0.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1",
+    "react-multi-carousel": "^2.8.0",
+    "react-player": "^2.10.0",
+    "react-redux": "^8.0.1",
+    "react-responsive-carousel": "^3.2.23",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "swiper": "^8.4.4",
+    "thunk": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  }
+}

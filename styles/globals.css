@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsla(0, 70%, 24%, 1);
+  --secondary-color: hsla(0, 80%, 24%, 1);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: 700 !important;
+
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+select:focus {
+  outline: none !important;
+  /* box-shadow: none !important; */
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+textarea:focus {
+  box-shadow: none !important;
+  border-color: initial !important;
+}
+
+.line-normal {
+  line-height: normal;
+}
+
+.box-shadow {
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-gray {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.primary-text {
+  color: var(--primary-color) !important;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.primary-bg {
+  background-color: var(--primary-color);
+}
+
+a {
+  text-decoration: none !important;
+  color: unset !important;
+}
+
+.primary-btn {
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+
+.secondary-btn {
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: #fff;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.w-max {
+  width: max-content;
+}
+
+.primary-sm-btn {
+  padding: 0.5rem 1rem;
+  display: block;
+  font-size: 1rem;
+  white-space: nowrap;
+  border: none;
+  background-color: #681212;
+  color: white;
+}
+
+.fw-semi {
+  font-weight: 600;
+}
+
+
+a {
+  color: #000;
+}
+
+
+.py-60 {
+  padding-block: 60px;
+}
+
+.f-bold {
+  font-weight: 700;
+}
+
+.f-regular {
+  font-weight: 400;
+}
+
+
+@media (max-width:768px) {
+
+  .html,
+  body {
+    font-size: 12px !important;
+  }
+}
