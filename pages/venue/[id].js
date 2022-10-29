@@ -48,8 +48,6 @@ const VenueDetails = () => {
 
     }, [id])
 
-    console.log(venue);
-
     return (
 
         <div className='vendor-detail-container bg-grey ' >
